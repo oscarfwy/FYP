@@ -1,0 +1,38 @@
+.index-grid{
+	thead{
+	width: calc( 100% - 1em );
+    display: table;
+}
+	tbody{
+	display: block;
+    max-height: 350px;
+    overflow: auto;
+    width: calc( 100% - 1em );
+	}
+	tr{
+	width: 100%;
+    display: table;
+    position:relative;
+	}
+	th,td{
+	width:33%;
+
+	 small{
+	  visibility: hidden;
+  	  width: 50%;
+  	  background-color: rgba(128,128,128,0.6);
+  	  color: #fff;
+  	  text-align: center;
+  	  padding: 5px 0;
+  	  border-radius: 6px;
+  	  position: absolute;
+  	  z-index: 1;
+  	  bottom: -16px;
+  	  left: 5%;
+	 }
+	}
+	td:hover small{
+	visibility: visible;
+	}
+
+}

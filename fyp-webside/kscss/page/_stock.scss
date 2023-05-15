@@ -1,0 +1,68 @@
+.title1{
+	font-size:36px;
+	display: inline-block;
+	font-weight: 700;
+}
+.subtitle, .hkd{
+	display: inline;
+    align-items: center;
+    max-width: 100%;
+    width: auto;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: normal;
+    margin-bottom: 0;
+    font-weight: 400;
+    color: $color-gary;
+}
+.hkd{
+	font-size: 12px !important ;
+	font-weight: 700 !important;
+}
+.title2{
+font-size:20px;
+	display: inline-block;
+	font-weight: 700;
+}
+
+.title3{
+	font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: -.3px;
+    flex: 0 1 auto;
+    margin-bottom: 0;
+    margin-right: 8px;
+    min-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+.chartWrapper {
+            position: relative;
+
+        }
+
+.chartWrapper > canvas {
+            position: absolute;
+            left: 0;
+            top: 0;
+            pointer-events:none;
+        }
+.chartAreaWrapper {
+          overflow-x: hidden;
+            position: relative;
+            width: 100%;
+            direction: rtl;
+        }
+
+.chartAreaWrapper2 {
+			width:2000px;
+            position: relative;
+            height: 300px;
+        }
+.stock-details{
+	display:inline-block;
+}

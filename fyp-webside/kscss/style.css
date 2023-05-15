@@ -1,0 +1,47 @@
+.index-grid thead {
+  width: calc( 100% - 1em );
+  display: table; }
+.index-grid tbody {
+  display: block;
+  max-height: 350px;
+  overflow: auto;
+  width: calc( 100% - 1em ); }
+.index-grid tr {
+  width: 100%;
+  display: table;
+  position: relative; }
+.index-grid th, .index-grid td {
+  width: 33%; }
+  .index-grid th small, .index-grid td small {
+    visibility: hidden;
+    width: 50%;
+    background-color: rgba(128, 128, 128, 0.6);
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    bottom: -16px;
+    left: 5%; }
+.index-grid td:hover small {
+  visibility: visible; }
+
+.title1{
+  font-size: 36px;
+  display: inline-block;
+  font-weight: 700; }
+
+.title2{
+  display: inline;
+  align-items: center;
+  max-width: 100%;
+  width: auto;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: normal;
+  margin-bottom: 0;
+  font-weight: 400;
+  color: #787b86; }
+
+/*# sourceMappingURL=style.css.map */
